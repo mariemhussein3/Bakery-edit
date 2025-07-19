@@ -79,14 +79,18 @@
     border: 0;
     padding-bottom: 0;
   }
-  nav .nav-link {
+  nav .nav-link ,.hidden-ul .dropdown-item{
     color: #f1efe8;
+     margin-left: 0;
   }
+
+
   nav .nav-item .nav-link.active,
   nav .nav-item:hover .nav-link {
     border-color: var(--main-hover-color);
   }
-
+.hidden-ul {
+  background-color: #736b60;}
   .logo-nav img {
     width: 50%;
   }
